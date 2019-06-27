@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MAV Admin</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_trip_details">Search Records</string>
+
+    <!--code spinner-->
+
+    <string-array name="sourcearray">
+        <item>Select Source</item>
+        <item>Arbor Oaks</item>
+        <item>Meadow Run</item>
+        <item>University Center</item>
+        <item>ERB</item>
+        <item>Garden Club</item>
+        <item>Centennial Court</item>
+        <item>LOT 49</item>
+        <item>Central Library</item>
+        <item>MAC</item>
+        <item>Nedderman Hall</item>
+        <item>The Arlie</item>
+    </string-array>
+    <string-array name="destinationarray">
+        <item>Select Destination</item>
+        <item>Arbor Oaks</item>
+        <item>Meadow Run</item>
+        <item>University Center</item>
+        <item>ERB</item>
+        <item>Garden Club</item>
+        <item>Centennial Court</item>
+        <item>LOT 49</item>
+        <item>Central Library</item>
+        <item>MAC</item>
+        <item>Nedderman Hall</item>
+        <item>The Arlie</item>
+    </string-array>
+    <string-array name="statusarray">
+        <item>Select Trip Status</item>
+        <item>Completed</item>
+        <item>NOSHOW</item>
+    </string-array>
+    <string name="title_activity_trip__details">Trip Details</string>
+    <string name="title_activity_view_trip_details">View Trip Details</string>
+    <string name="title_activity_add_driver">Add Driver</string>
+    <string name="title_activity_edit_driver_details">Edit Driver Details</string>
+    <string name="title_activity_change_driver_status">Change Driver Status</string>
+    <string name="title_activity_driver_search">Driver Search</string>
+    <string name="title_activity_serarchfor_driver">Serarch for Driver</string>
+    <string name="title_activity_confirm_driver">Confirm Driver</string>
+    <string name="title_activity_search_for_driver">Search For Driver</string>
+    <string name="title_activity_driver_lookup">Driver Lookup</string>
+    <string name="title_activity_search_and_edit">Search And Edit</string>
+    <string name="title_activity_displaying_trip_details">Displaying Trip Details</string>
+</resources>

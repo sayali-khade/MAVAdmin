@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.techwarriors.mav_admin.AddDriver"
+    tools:showIn="@layout/activity_add_driver">
+
+    <EditText
+        android:id="@+id/PTdrivername12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PTdriverpassword"
+        android:layout_below="@+id/PTdriverpassword"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Driver Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PTdriverphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PTdrivername12"
+        android:layout_below="@+id/PTdrivername12"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:maxLength="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/PTdriversecque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PTdriverphone"
+        android:layout_below="@+id/PTdriverphone"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Security Question"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PTdriversecans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PTdriversecque"
+        android:layout_below="@+id/PTdriversecque"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Security Answer"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onaddclick"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/PTdriverpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TVdid"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Password"
+        android:maxLength="20"
+        android:inputType="textPassword" />
+
+    <Switch
+        android:id="@+id/Sdriverswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PTdriversecans"
+        android:layout_below="@+id/PTdriversecans"
+        android:layout_marginTop="16dp"
+        android:text="Working?" />
+
+    <TextView
+        android:id="@+id/TVdid"
+        android:layout_width="218dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/PTdriverpassword"
+        android:layout_marginTop="25dp"
+        android:text="Driver UTA ID" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_viewtripdetails"
+            android:icon="@drawable/viewtripdetails"
+            android:title="View Trip Details" />
+        <item
+            android:id="@+id/nav_add_drivers"
+            android:icon="@drawable/add_driver"
+            android:title="Add Drivers" />
+        <item
+            android:id="@+id/nav_editdriverinfo"
+            android:icon="@drawable/editdriverinfo"
+            android:title="Edit Driver Information" />
+        <item
+            android:id="@+id/nav_changedriverstatus"
+            android:icon="@drawable/changedriverstatus"
+            android:title="Change Driver Status" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    </menu>
